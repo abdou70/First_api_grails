@@ -2,7 +2,7 @@ package org.fleetmanager
 
 import grails.rest.*
 
-@Resource(uri = '/car' , formats = ['json','xml'])
+@Resource(formats = ['json','xml'])
 class Car {
 
     static constraints = {

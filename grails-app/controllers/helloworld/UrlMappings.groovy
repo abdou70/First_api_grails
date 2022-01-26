@@ -8,7 +8,7 @@ class UrlMappings {
                 // apply constraints here
             }
         }
-//        "api/car"(resource: 'car')
+        "/car"(resources: 'car')
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
