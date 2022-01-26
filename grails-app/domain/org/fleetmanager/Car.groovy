@@ -7,7 +7,6 @@ class Car {
 
     static constraints = {
         manifactured blank: false
-        manifactured blank: false
         color blank: false
         year blank: false
         acquisitionDate blank : false
