@@ -9,6 +9,7 @@ class UrlMappings {
             }
         }
         "/car"(resources: 'car')
+        "/option"(resources: 'option')
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')

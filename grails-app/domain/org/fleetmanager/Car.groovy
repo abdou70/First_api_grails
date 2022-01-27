@@ -4,12 +4,12 @@ import grails.rest.*
 
 @Resource(formats = ['json','xml'])
 class Car {
-
     static constraints = {
         manifactured blank: false
         color blank: false
         year blank: false
         acquisitionDate blank : false
+        option blank : true
         //IsElectric blank : false
     }
 //    static mapping = {
@@ -21,5 +21,9 @@ class Car {
     String color
     Integer year
     String acquisitionDate
-//    Boolean IsElectric
+
+    static belongsTo = [
+            option: Option
+    ]
+
 }

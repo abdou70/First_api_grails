@@ -12,6 +12,7 @@ class HelloworldController  extends RestfulController<Car>{
     HelloworldController() {
         super(Car)
     }
+
 //    def index() {
 //        render "Hello Sun Telecom";
 //    }
